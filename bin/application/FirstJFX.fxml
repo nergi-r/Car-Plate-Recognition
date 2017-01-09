@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FXController">
+   <top>
+      <TextField alignment="CENTER" disable="true" editable="false" text="Car Plate Recognition" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </TextField>
+   </top>
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="uploadImageButton" mnemonicParsing="false" onAction="#getPicture" text="Upload Image">
+                     <HBox.margin>
+                        <Insets top="50.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <VBox prefHeight="227.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fx:id="originalImage" fitHeight="125.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true" />
+                        <TextField alignment="CENTER" disable="true" editable="false" text="Original Image">
+                           <VBox.margin>
+                              <Insets top="15.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="100.0" top="15.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fx:id="blackWhiteImage" fitHeight="125.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets top="15.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <TextField alignment="CENTER" disable="true" editable="false" text="Processed Image">
+                           <VBox.margin>
+                              <Insets top="15.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="100.0" />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" snapToPixel="false" spacing="10.0">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <children>
+                  <VBox prefHeight="250.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fx:id="character1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin></ImageView>
+                        <TextField fx:id="character1Type" alignment="CENTER" disable="true" editable="false" minWidth="100.0" promptText="Character">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin></TextField>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0" prefHeight="250.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fx:id="character2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </ImageView>
+                        <TextField fx:id="character2Type" alignment="CENTER" disable="true" editable="false" minWidth="100.0" promptText="Character">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="120.0" layoutY="10.0" prefHeight="250.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fx:id="character3" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </ImageView>
+                        <TextField fx:id="character3Type" alignment="CENTER" disable="true" editable="false" minWidth="100.0" promptText="Character">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="230.0" layoutY="10.0" prefHeight="250.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fx:id="character4" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </ImageView>
+                        <TextField fx:id="character4Type" alignment="CENTER" disable="true" editable="false" minWidth="100.0" promptText="Character">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="340.0" layoutY="10.0" prefHeight="250.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fx:id="character5" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </ImageView>
+                        <TextField fx:id="character5Type" alignment="CENTER" disable="true" editable="false" minWidth="100.0" promptText="Character">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="450.0" layoutY="10.0" prefHeight="250.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fx:id="character6" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </ImageView>
+                        <TextField fx:id="character6Type" alignment="CENTER" disable="true" editable="false" minWidth="100.0" promptText="Character">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="560.0" layoutY="10.0" prefHeight="250.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fx:id="character7" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </ImageView>
+                        <TextField fx:id="character7Type" alignment="CENTER" disable="true" editable="false" minWidth="100.0" promptText="Character">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="670.0" layoutY="10.0" prefHeight="250.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fx:id="character8" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </ImageView>
+                        <TextField fx:id="character8Type" alignment="CENTER" disable="true" editable="false" minWidth="100.0" promptText="Character">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <TextField fx:id="recognitionResult" alignment="CENTER" editable="false" promptText="B 1 2 3 4 A B C">
+               <VBox.margin>
+                  <Insets top="35.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </TextField>
+         </children>
+         <BorderPane.margin>
+            <Insets left="50.0" right="50.0" top="15.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+   <bottom>
+      <Button fx:id="runButton" alignment="CENTER" mnemonicParsing="false" onAction="#run" text="Run" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="20.0" />
+         </BorderPane.margin>
+      </Button>
+   </bottom>
+</BorderPane>

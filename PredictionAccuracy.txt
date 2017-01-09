@@ -1,0 +1,210 @@
+B9320VUA Wrong predict A
+B1JKW Wrong predict W
+B2525JJ Correct predict
+B1481UKS Wrong predict 4
+B2089RFP Wrong predict P
+B1152SN Correct predict
+B8688SZ Correct Predict
+B2891BKS Correct Predict
+B1618QI Correct Predict
+B3CAK Correct Predict
+B1387URY Wrong predict Y
+B1494VKD Wrong predict 4 and D
+B1472SOX Wrong predict O
+B8833ZP Correct predict
+B54TYA Correct predict
+D800IDA Wrong predict A
+B251SD Correct predict
+B457UTY Wrong predict 4 and Y
+B19JUL Correct predict
+B510VW Correct predict
+N1861GQ Correct predict
+B1953LW Wrong predict W
+B307UNE Correct predict
+B70VIN Correct predict
+KT1780OS Wrong predict K and O
+B23NSI Correct predict
+B1995BOE Wrong predict O
+BG1434RN Wrong predict 4
+B8052WV Wrong segmentation
+B451NIE Correct predict
+S1369TB Correct predict
+J45MINE Correct predict
+B9017FDD Correct predict
+B697QZ Wrong predict Z
+B7557KM Wrong predict M
+B8717WD Wrong predict W
+B2EFX Correct predict
+H8698CY Wrong predict Y
+B333WO Wrong predict W
+D1838SE Wrong predict D
+D14RE Correct predict
+B6987NN Wrong predict N
+H7317BF Correct predict
+B38TDY Wrong segmentation
+B1338ZVF Correct predict
+F1003CU Correct predict
+B1952NOS Wrong predict O
+B1591TJH Wrong predict T
+B2629BKR Correct predict
+B1438BZM Wrong predict Z
+B1450NOD Wrong predict D
+B1528CKS Correct predict
+B120YYY Wrong predict Y
+B1552SJK Wrong predict K
+B1473GKA Wrong predict A
+B251DNY Wrong predict Y
+H8698CY Wrong predict Y
+A1495ZA Wrong predict A
+G7000KK Correct predict
+H8923JE Correct predict
+B1693EVH Wrong predict V
+B1054TN Wrong predict T
+B2684CEF Correct predict
+B4608AFD Wrong predict A
+B4567DM Wrong predict D
+B711UV Correct predict
+B123LEE Correct predict
+L1899MY Wrong predict Y
+DH1195AF Wrong predict D
+D55DS Correct predict
+B223WEN Wrong predict W
+B117RFT Correct predict
+B1LNG Correct predict
+B242RFD Correct predict
+B8912WK Wrong predict K
+B4AIK Correct predict
+B189LAU Wrong segmentation
+B445UKI Correct predict
+B8888Z Correct predict
+B899JQ Correct predict
+B1980SS Correct predict
+D1656SD Wrong predict D
+W8552BV Correct predict
+L38AY Correct predict
+B68RED Correct predict
+BP1335RM Wrong predict P
+B328JH Correct predict
+B1187KZX Wrong predict K
+KT333FA Correct predict
+D13HSN Correct predict
+B8110MH Wrong predict M
+B1108NAB Wrong predict A
+B23YP Correct predict
+B267NI Correct predict
+B805WYN Wrong predict 5 and Y
+B233TGS Correct predict
+B1720BZG Wrong segmentation
+B6501SGD Correct Predict
+B1110COD Wrong predict O
+B1950UKL Correct predict
+
+Correct segmentation : 96/100
+Character prediction : 690/744
+Car plate prediction : 51/100
+
+new dataset 4 & W & O & L & T
+B9320VUA Wrong predict A
+B1JKW Wrong predict K
+B2525JJ Correct predict
+B1481UKS Wrong predict K
+B2089RFP Correct predict
+B1152SN Correct predict
+B8688SZ Correct predict
+B2891BKS Correct predict
+B1618QI Correct predict
+B3CAK Correct predict
+B1387URY Wrong predict Y
+B1494VKD Correct predict
+B1472SOX Correct predict
+B8833ZP Correct predict
+B54TYA Correct predict
+D800IDA Wrong predict A
+B251SD Correct predict
+B457UTY Wrong predict Y
+B19JUL Correct predict
+B510VW Correct predict
+N1861GQ Correct predict
+B1953LW Correct predict
+B307UNE Correct predict
+B70VIN Correct predict
+KT1780OS Wrong predict K
+B23NSI Correct predict
+B1995BOE Correct predict
+BG1434RN Correct predict
+B8052WV Wrong segmentation
+B451NIE Correct predict
+S1369TB Wrong predict T
+J45MINE Correct predict
+B9017FDD Correct predict
+B697QZ Correct predict
+B7557KM Wrong predict M
+B8717WD Correct predict
+B2EFX Correct predict
+H8698CY Correct predict
+B333WO Correct predict
+D1838SE Wrong predict D
+D14RE Correct predict
+B6987NN Wrong predict N
+H7317BF Correct predict
+B38TDY Wrong segmentation
+B1338ZVF Correct predict
+F1003CU Correct predict
+B1952NOS Correct predict
+B1591TJH Wrong predict T
+B2629BKR Correct predict
+B1438BZM Correct predict
+B1450NOD Correct predict
+B1528CKS Correct predict
+B120YYY Correct predict
+B1552SJK Correct predict
+B1473GKA Wrong predict A
+B251DNY Correct predict
+H8698CY Correct predict
+A1495ZA Correct predict
+G7000KK Correct predict
+H8923JE Correct predict
+B1693EVH Wrong predict V
+B1054TN Correct predict
+B2684CEF Correct predict
+B4608AFD Correct predict
+B4567DM Correct predict
+B711UV Correct predict
+B123LEE Correct predict
+L1899MY Correct predict
+DH1195AF Wrong predict D
+D55DS Correct predict
+B223WEN Correct predict
+B117RFT Correct predict
+B1LNG Correct predict
+B242RFD Correct predict
+B8912WK Wrong predict K
+B4AIK Correct predict
+B189LAU Wrong segmentation
+B445UKI Correct predict
+B8888Z Correct predict
+B899JQ Correct predict
+B1980SS Correct predict
+D1656SD Wrong predict D
+W8552BV Correct predict
+L38AY Correct predict
+B68RED Correct predict
+BP1335RM Wrong predict P
+B328JH Correct predict
+B1187KZX Wrong predict K
+KT333FA Correct predict
+D13HSN Correct predict
+B8110MH Wrong predict M
+B1108NAB Wrong predict A
+B23YP Correct predict
+B267NI Correct predict
+B805WYN Wrong predict 5 and Y
+B233TGS Correct predict
+B1720BZG Wrong segmentation
+B6501SGD Correct predict
+B1110COD Correct predict
+B1950UKL Correct predict
+
+Correct segmentation : 96/100
+Character prediction : 725/744
+Car plate prediction : 74/100
