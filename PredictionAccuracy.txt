@@ -1,4 +1,9 @@
 New training set, added 4 & W & O & L & T
+
+Correct segmentation : 96/100
+Character prediction : 725/744
+Car plate prediction : 74/100
+
 B9320VUA Wrong predict A
 B1JKW Wrong predict K
 B2525JJ Correct predict
@@ -100,11 +105,12 @@ B6501SGD Correct predict
 B1110COD Correct predict
 B1950UKL Correct predict
 
-Correct segmentation : 96/100
-Character prediction : 725/744
-Car plate prediction : 74/100
-
 Old training set
+
+Correct segmentation : 96/100
+Character prediction : 690/744
+Car plate prediction : 51/100
+
 B9320VUA Wrong predict A
 B1JKW Wrong predict W
 B2525JJ Correct predict
@@ -206,6 +212,3 @@ B6501SGD Correct Predict
 B1110COD Wrong predict O
 B1950UKL Correct predict
 
-Correct segmentation : 96/100
-Character prediction : 690/744
-Car plate prediction : 51/100
