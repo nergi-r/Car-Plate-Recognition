@@ -22,7 +22,7 @@ Initial layout
 
 Browse Image
 
-![car plate recognition demo2](https://user-images.githubusercontent.com/24991776/29876600-79c7cda8-8dc7-11e7-822a-a6c0f85a096e.png)
+![car plate recognition demo2](https://user-images.githubusercontent.com/24991776/29877228-3bcf20a8-8dc9-11e7-8fc1-1bda002a56d9.png)
 
 Before and after pre-processing done on uploaded image.
 
